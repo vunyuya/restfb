@@ -1,0 +1,14 @@
+language: java
+jdk:
+ - oraclejdk8
+ - oraclejdk9
+ - openjdk10
+ - openjdk7
+cache:
+  directories:
+   - $HOME/.m2
+before_cache:
+ - rm -rf $HOME/.m2/repository/com/restfb/
+script:
+ - chmod +x sonar.sh
+ - ./sonar.sh

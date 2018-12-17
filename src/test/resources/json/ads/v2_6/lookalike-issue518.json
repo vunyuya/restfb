@@ -1,0 +1,13 @@
+{
+  "origin": [
+    {
+      "name": "My Custom Audience",
+      "id": "abc123",
+      "type": "custom_audience"
+    }
+  ],
+  "target_countries": [
+    "CA",
+    "US"
+  ]
+}
